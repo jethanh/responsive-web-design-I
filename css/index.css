@@ -217,9 +217,7 @@ body {
 }
 
 @media (max-width: 500px){
-	body {
-		width: 90%;
-	}
+	
 
 	nav {
 		display: flex;
@@ -228,8 +226,8 @@ body {
 		position: static;
 		width: 100%;
 		
+		
 	}
-
 	.divlinks {
 		display: flex;
 		flex-direction: column;
@@ -240,10 +238,15 @@ body {
 	.divlinks a {
 		border-bottom: 1px solid grey;
 		width: 100%;
+		font-size: 20px;
+		justify-content: center;
+		align-items: space-evenly;
 	}
 	
 	.topsection {
-		margin-top: -100px;
+		justify-content: center;
+		margin-top: -30%;
+		margin-left: 15%;
 	}
 
 	.top-content {
