@@ -191,9 +191,6 @@ body {
 
 @media (max-width: 800px){
 
-	body {
-		max-width: 100%;
-	}
 
 	.headerImage {
 		display: none;
@@ -211,13 +208,23 @@ body {
 		width: 85%;
 	}
 
+	.topsection-text {
+		justify-content: center;
+		margin-left: -60%;
+	
+	}
+
 	button {
 		margin-left: -52%;
 	}
 }
 
 @media (max-width: 500px){
-	
+
+	body {
+		width: 100%;
+		margin: 0 0;
+	}
 
 	nav {
 		display: flex;
@@ -246,7 +253,12 @@ body {
 	.topsection {
 		justify-content: center;
 		margin-top: -30%;
-		margin-left: 15%;
+	}
+	
+	.topsection-text {
+		justify-content: center;
+		margin-left: -60%;
+	
 	}
 
 	.top-content {
